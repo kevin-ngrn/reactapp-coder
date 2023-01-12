@@ -1,0 +1,47 @@
+[{"id": 1,
+"name": "Clasica",
+"description": "Carne, lechuga, tomate, cebolla morada cruda, mayonesa, ketchupa y muzzarella.",
+"image": "IMAGEN",
+"price": "$435",
+"category": "Carne"
+},
+
+{"id": 2,
+"name": "Completa",
+"description": "Carne, Lechuga, tomate, huevo a la plancha, jamon, bacon, cebolla salteada, mayonesa y muzzarella",
+"image": "IMAGEN",
+"price": "$445",
+"category": "Carne"
+},
+
+{"id": 3,
+"name": "Champi",
+"description": "Carne, champiñones, mayonesa, cebolla sateada, mostaza dijon y queso dambo",
+"image": "IMAGEN",
+"price": "$445",
+"category": "Carne"
+},
+
+{"id": 4,
+"name": "Pepinillos",
+"description": "Carne, lechuga, pepinillos, salsa de pepinillos, cebolla cruda picada, y queso cheddar",
+"image": "IMAGEN",
+"price": "$445",
+"category": "Carne"
+},
+
+{"id": 5,
+"name": "Picante",
+"description": "Carne, salsa picante, lechuga, tomate, cebolla morada cruda, jalapeños y queso cheddar",
+"image": "IMAGEN",
+"price": "$445",
+"category": "Carne"
+},
+
+{"id": 6,
+"name": "Bacon",
+"description": "Carne, bacon, aros de cebolla rebozado, mayonesa de ajo, salsa BBQ, y queso cheddar",
+"image": "IMAGEN",
+"price": "$445",
+"category": "Carne"
+}]
