@@ -1,33 +1,49 @@
 import { useEffect, useState } from 'react'
 import './ItemListContainer.css'
-import stock from '../../Data/Mock_Data.json'
+import mock from '../../Data/Mock_Data.json'
 import Item from '../Item/Item.js'
 
 
 export const ItemListContainer = () => {
 
+
+const  [productos, setProductos] = useState ([])
+
+
 const pedirDatos = () => {
         return new Promise ((resolve) =>{
             setTimeout (() => {          
-                resolve (stock)   
+                resolve (mock)   
             }, 2000)
         })
     } 
 
-const  [stock, setStock] = useState ([])
 
     useEffect (() => {
         pedirDatos()
             .then((res)=> {
-                console.log(res);
+                setProductos(res);
             })
             .catch((err) =>{
                 console.log(err);
             })
     }, [])
 
+
     return (
-        <div className='container my-5 '>
+        <div className='container my-5'>
+            <h2>Productos</h2>
+            <hr/>
+            
+            {productos.map((prod => (
+                <div>
+                    <p name={prod.name}>IMAGEN</p>
+                    <p>{prod.name}</p>
+                    <p>{prod.description}</p>
+                    <p>Precio:<b>{prod.price}</b></p>
+
+                </div>
+            )))}
         </div>
     )
 
