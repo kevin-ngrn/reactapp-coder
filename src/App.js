@@ -5,7 +5,7 @@ import { ItemCount } from './components/ItemCount/ItemCount';
 import { ItemDetailContainer } from './components/ItemDetailContainer/ItemDetailContainer';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Nosotros } from './Nosotros/Nosotros';
-import { Item } from './components/Item/Item';
+
 
 
 function App() {
