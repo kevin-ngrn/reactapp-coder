@@ -11,12 +11,11 @@ export const NavBar = () => {
                 </Link>   
                 <h1 className='nombrePag'>~ Burger Point ~</h1>
                 <nav className='navHeader'>
-                    <Link to="/" className='linksHeader'>Home</Link>
-                    <Link to="/Productos"className='linksHeader'>Productos</Link>
-                    <Link to="/Nosotros" className='linksHeader'>Nosotros</Link>
+                    <Link to="/" className='linksHeader'>Inicio</Link>
+                    <Link to="/productos"className='linksHeader'>Hamburguesas</Link>
                     <CartWidget></CartWidget>
                 </nav>
             </div>
         </header>
     )
-}
+} 

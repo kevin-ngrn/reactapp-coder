@@ -7,3 +7,20 @@ export const pedirDatos = () => {
         }, 2000)
     })
 }
+
+
+export const pedirItemId = (id) => {
+    return new Promise ((resolve, reject) => {
+        setTimeout(() => {
+            const item = mock.find((el) => el.id === id)
+            if(item){
+            resolve (item)
+            }else{
+            reject ({
+                error: 'No se encontro ese producto'
+            })
+            }
+        }, 2000)
+    })
+}
+
