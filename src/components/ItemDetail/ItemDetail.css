@@ -1,0 +1,12 @@
+.imgItemDetail{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.descriptionItemDetail, .priceItemDetail, .nameItemDetail{
+    font-family: fantasy;
+}
+
+.priceItemDetail{
+    font-size: large;
+}

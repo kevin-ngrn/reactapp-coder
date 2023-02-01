@@ -1,5 +1,5 @@
 .header{
-    background-color: blanchedalmond;
+    background-color: cadetblue;
     margin: 0;
 }
 .containerHeader{
@@ -19,12 +19,18 @@
     align-items: center;
 }
 .linksHeader{
-    color: black;
+    color: beige;
     text-decoration: none;
     padding: 15px;
+    font-family: fantasy;
+    font-size: large;
 }
 
-.nombrePag{
-    color: burlywood;
-    font-family: 'Times New Roman', Times, serif;
+.linkOpinion{
+    color: goldenrod;
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 70px;
+    font-family: fantasy;
+    font-size: medium;
 }

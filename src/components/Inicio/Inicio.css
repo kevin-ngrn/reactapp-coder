@@ -1,0 +1,19 @@
+.tituloInicio{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    margin: 10%;
+    font-size: -webkit-xxx-large;    
+}
+
+.subtituloInicio{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+}
+
+.divInicio{
+    display: table-cell;
+}

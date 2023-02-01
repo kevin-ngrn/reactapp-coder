@@ -3,6 +3,7 @@ import './ItemListContainer.css'
 import { ItemList } from '../ItemList/ItemList.js'
 import { pedirDatos } from '../../helpers/pedirDatos'
 import { useParams } from 'react-router-dom'
+import Inicio from '../Inicio/Inicio'
 
 export const ItemListContainer = () => {
 
@@ -22,10 +23,11 @@ const { categoryId } = useParams()
         .catch((err) => {
             console.log(err)
         })
-    }, [])
+    }, [categoryId])
 
     return (
         <div>
+            <Inicio/>
             <ItemList productos={productos}/>
         </div> 
     )

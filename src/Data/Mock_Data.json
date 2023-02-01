@@ -1,239 +1,268 @@
 [{"id": 1,
 "name": "Clasica",
 "description": "Carne, lechuga, tomate, cebolla morada cruda, mayonesa, ketchupa y muzzarella.",
-"image": "IMAGEN",
-"price": "$435",
-"category": "Carne"
+"image": "/img/producto.png",
+"price": 435,
+"category": "Carne",
+"stock": 20
 },
 
 {"id": 2,
 "name": "Completa",
 "description": "Carne, Lechuga, tomate, huevo a la plancha, jamon, bacon, cebolla salteada, mayonesa y muzzarella",
-"image": "IMAGEN",
-"price": "$445",
-"category": "Carne"
-},
+"image": "/img/producto.png",
+"price": 445,
+"category": "Carne",
+"stock": 20},
 
 {"id": 3,
 "name": "Champi",
 "description": "Carne, champiñones, mayonesa, cebolla sateada, mostaza dijon y queso dambo",
-"image": "IMAGEN",
-"price": "$445",
-"category": "Carne"
+"image": "/img/producto.png",
+"price": 445,
+"category": "Carne",
+"stock": 20
 },
 
 {"id": 4,
 "name": "Pepinillos",
 "description": "Carne, lechuga, pepinillos, salsa de pepinillos, cebolla cruda picada, y queso cheddar",
-"image": "IMAGEN",
-"price": "$445",
-"category": "Carne"
+"image": "/img/producto.png",
+"price": 445,
+"category": "Carne",
+"stock": 20
 },
 
 {"id": 5,
 "name": "Picante",
 "description": "Carne, salsa picante, lechuga, tomate, cebolla morada cruda, jalapeños y queso cheddar",
-"image": "IMAGEN",
-"price": "$445",
-"category": "Carne"
+"image": "/img/producto.png",
+"price": 445,
+"category": "Carne",
+"stock": 20
 },
 
 {"id": 6,
 "name": "Bacon",
 "description": "Carne, bacon, aros de cebolla rebozado, mayonesa de ajo, salsa BBQ, y queso cheddar",
-"image": "IMAGEN",
-"price": "$445",
-"category": "Carne"
+"image": "/img/producto.png",
+"price": 445,
+"category": "Carne",
+"stock": 20
 },
 
 {"id": 7,
 "name": "Jack",
 "description": "Carne, cebolla salteada, bacon, salsa BBQ con Jack Daniels y queso cheddar",
-"image": "IMAGEN",
-"price": "$445",
-"category": "Carne"
+"image": "/img/producto.png",
+"price": 445,
+"category": "Carne",
+"stock": 20
 },
 
 {"id": 8,
 "name": "Melted",
 "description": " 400g de carne, doble extra bacon, doble extra queso cheddar, mayonesa y salsa BBQ",
-"image": "IMAGEN",
-"price": "$435",
-"category": "Carne"
+"image": "/img/producto.png",
+"price": 435,
+"category": "Carne",
+"stock": 20
 },
 
 {"id": 9,
 "name": "Sweet Bacon Sandwich",
 "description": "200g de carne de novillo  pollo crispy en medio de dos tostados de muzza, mermelada de panceta, queso cheddar, salsa de mayonesa y mostaza dijon",
-"image": "IMAGEN",
-"price": "$535",
-"category": "Carne"
+"image": "/img/producto.png",
+"price": 535,
+"category": "Carne",
+"stock": 20
 },
 
 {"id": 10,
 "name": "Pollo Crispy",
 "description": "Pollo crispy, lechuga, tomate, mayonesa, bacon, y queso cheddar",
-"image": "IMAGEN",
-"price": "$445",
-"category": "Carne"
+"image": "/img/producto.png",
+"price": 445,
+"category": "Carne",
+"stock": 20
 },
 
 {"id": 11,
 "name": "Guacamole Crispy",
 "description": "Pollo crispy, queso philadelphia, rucula, bacon y guacamole",
-"image": "IMAGEN",
-"price": "$445",
-"category": "Carne"
+"image": "/img/producto.png",
+"price": 445,
+"category": "Carne",
+"stock": 20
 },
 
 {"id": 12,
 "name": "Salmon",
 "description": "Hamburguesa de salmon, queso philadelphia, mayonesa de palta, rucula, tomate y cebolla morada cruda",
-"image": "IMAGEN",
-"price": "$475",
-"category": "Carne"
+"image": "/img/producto.png",
+"price": 475,
+"category": "Carne",
+"stock": 20
 },
 
 {"id": 13,
 "name": "Cerdo",
 "description": "200g de carne de cerdo, queso philadelphia, cebolla caramelizada, bacon y queso dambo",
-"image": "IMAGEN",
-"price": "$450",
-"category": "Carne"
+"image": "/img/producto.png",
+"price": 450,
+"category": "Carne",
+"stock": 20
 },
 
 {"id": 14,
 "name": "Donna",
 "description": "150g de carne de novillo, extra bacon y extra queso cheddar en medio de dos donas glaseadas",
-"image": "IMAGEN",
-"price": "$445",
-"category": "Carne"
+"image": "/img/producto.png",
+"price": 445,
+"category": "Carne",
+"stock": 20
 },
 
 {"id": 15,
 "name": "Seitan",
 "description": "Filet de seitan, huevo a la plancha, lechuga, cebolla salteada, mayonesa de ajo, salsa BBQ y queso cheddar",
-"image": "IMAGEN",
-"price": "$450",
-"category": "Vegetariano"
+"image": "/img/producto.png",
+"price": 450,
+"category": "Vegetariano",
+"stock": 20
 },
 
 {"id": 16,
 "name": "Lentejas",
 "description": "Hamburguesa de lentejas, mayonesa de remolacha, lechuga, tomate, cebolla cruda picada y queso philadelphia",
-"image": "IMAGEN",
-"price": "$445",
-"category": "Vegetariano"
+"image": "/img/producto.png",
+"price": 445,
+"category": "Vegetariano",
+"stock": 20
 },
 
 {"id": 17,
 "name": "Veggie Dona",
 "description": "Burger next o seitan, veganceta y queso cheddar entre dos donnas glaseadas",
-"image": "IMAGEN",
-"price": "$475",
-"category": "Vegetariano"
+"image": "/img/producto.png",
+"price": 475,
+"category": "Vegetariano",
+"stock": 20
 },
 
 {"id": 18,
 "name": "Vegan",
 "description": "Hamburguesa next o lentejas, rucula, hummus, zuchini y zanahorias salteados, tomate y mayonesa de palta",
-"image": "IMAGEN",
-"price": "$475",
-"category": "Vegano"
+"image": "/img/producto.png",
+"price": 475,
+"category": "Vegano",
+"stock": 20
 },
 
 {"id": 19,
 "name": "Vegan Champi",
 "description": "Filet de seitan, mayonesa, champiñones, cebolla salteada, queso y mostaza dijon",
-"image": "IMAGEN",
-"price": "$450",
-"category": "Vegano"
+"image": "/img/producto.png",
+"price": 450,
+"category": "Vegano",
+"stock": 20
 },
 
 {"id": 20,
 "name": "Vegan Bacon",
 "description": "Burger next, mayonesa de ajo, aros de cebollarebozados, salsa BBQ, veganceta y queso cheddar",
-"image": "IMAGEN",
-"price": "$445",
-"category": "Vegano"
+"image": "/img/producto.png",
+"price": 445,
+"category": "Vegano",
+"stock": 20
 },
 
 {"id": 21,
 "name": "Vegan Pepi",
 "description": "Burger next, salsa de pepinillos, cebolla cruda picada, lechuga, queso cheddar y pepinillos",
-"image": "IMAGEN",
-"price": "$445",
-"category": "Vegano"
+"image": "/img/producto.png",
+"price": 445,
+"category": "Vegano",
+"stock": 20
 },
 
 {"id": 22,
 "name": "Vegan BTB",
 "description": "Burger next, ketchup, cebolla cruda picada, queso cheddar, veganceta, pepinillos y mostaza amarilla",
-"image": "IMAGEN",
-"price": "$445",
-"category": "Vegano"
+"image": "/img/producto.png",
+"price": 445,
+"category": "Vegano",
+"stock": 20
 },
 
 {"id": 23,
 "name": "Vegan Crispy",
 "description": "NoPollo Crispy, mayonesa, lechuga, tomate, veganceta y queso cheddar",
-"image": "IMAGEN",
-"price": "$475",
-"category": "Vegano"
+"image": "/img/producto.png",
+"price": 475,
+"category": "Vegano",
+"stock": 20
 },
 
 {"id": 24,
 "name": "Vegan Guacamole",
 "description": "NoPollo Crispy, mayonesa, rucula, veganceta y guacamole",
-"image": "IMAGEN",
-"price": "$475",
-"category": "Vegano"
+"image": "/img/producto.png",
+"price": 475,
+"category": "Vegano",
+"stock": 20
 },
 
 {"id": 25,
 "name": "Vegan Pepi",
 "description": "Burger next, salsa de pepinillos, cebolla cruda picada, lechuga, queso cheddar y pepinillos",
-"image": "IMAGEN",
-"price": "$445",
-"category": "Vegano"
+"image": "/img/producto.png",
+"price": 445,
+"category": "Vegano",
+"stock": 20
 },
 
 {"id": 26,
 "name": "Vegan Pepi",
 "description": "Burger next, salsa de pepinillos, cebolla cruda picada, lechuga, queso cheddar y pepinillos",
-"image": "IMAGEN",
-"price": "$445",
-"category": "Vegano"
+"image": "/img/producto.png",
+"price": 445,
+"category": "Vegano",
+"stock": 20
 },
 
 {"id": 27,
 "name": "Vegan Pepi",
 "description": "Burger next, salsa de pepinillos, cebolla cruda picada, lechuga, queso cheddar y pepinillos",
-"image": "IMAGEN",
-"price": "$445",
-"category": "Vegano"
+"image": "/img/producto.png",
+"price": 445,
+"category": "Vegano",
+"stock": 20
 },
 
 {"id": 28,
 "name": "Vegan Pepi",
 "description": "Burger next, salsa de pepinillos, cebolla cruda picada, lechuga, queso cheddar y pepinillos",
-"image": "IMAGEN",
-"price": "$445",
-"category": "Vegano"
+"image": "/img/producto.png",
+"price": 445,
+"category": "Vegano",
+"stock": 20
 },
 
 {"id": 29,
 "name": "Vegan Pepi",
 "description": "Burger next, salsa de pepinillos, cebolla cruda picada, lechuga, queso cheddar y pepinillos",
-"image": "IMAGEN",
-"price": "$445",
-"category": "Vegano"
+"image": "/img/producto.png",
+"price": 445,
+"category": "Vegano",
+"stock": 20
 },
 
 {"id": 30,
 "name": "Vegan Pepi",
 "description": "Burger next, salsa de pepinillos, cebolla cruda picada, lechuga, queso cheddar y pepinillos",
-"image": "IMAGEN",
-"price": "$445",
-"category": "Vegano"
+"image": "/img/producto.png",
+"price": 445,
+"category": "Vegano",
+"stock": 20
 }]

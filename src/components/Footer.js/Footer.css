@@ -1,0 +1,11 @@
+.divFooter{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+
+.rrssFooter{
+    margin: auto;
+    font-family: fantasy;
+}

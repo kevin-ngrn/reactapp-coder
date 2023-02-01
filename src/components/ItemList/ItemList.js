@@ -1,20 +1,19 @@
-
+import { Link } from "react-router-dom"
+import './ItemList.css'
 
 
 export const ItemList = ({productos}) => {
     return (
         <div className='container my-5'>
-            <h2>Productos</h2>
             <hr/>
+            <h3>¡Todas las opciones!</h3>
             <section className="row my-4">
             {productos.map((prod => (
-                <div key={prod.id} className="col-4">
-                    <p name={prod.name}>IMAGEN</p>
-                    <p>{prod.name}</p>
-                    <p>Precio:<b>{prod.price}</b></p>
-                    <small>{prod.category}</small>
+                <div key={prod.id} className="col-4 divProdItemList" >
+                    <p className="nameItemList">{prod.name}<b> ${prod.price}</b></p>
+                    <img src={prod.image}></img>
                     <br></br>
-                    <button className="btn btn-outline-primary">Ver mas</button>
+                    <Link to={`/detail/${prod.id}`} className="btn btn-outline-primary btnItemList">Detalle</Link>
                 </div>
                 )
             ))}
