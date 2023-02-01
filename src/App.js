@@ -5,16 +5,22 @@ import { ItemDetailContainer } from './components/ItemDetailContainer/ItemDetail
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import './App.css'
 import { Footer } from './components/Footer.js/Footer';
-import { CartContext } from './components/cartContext/cartContext';
+import { CartContext } from './components/CartContext/CartContext';
+import { useState } from 'react';
 
 
 function App() {
 
-    const provider = ''
-  
+    const [cart, setCart] = useState([])
+    const agregarCarrito = (item) => {
+      setCart([...cart, item])
+    }
+    const enElCarrito = (id) => {
+      return cart.some(item => item.id === id)
+    }
   
   return (
-    <CartContext.Provider value={provider}>
+    <CartContext.Provider value={{cart, agregarCarrito, enElCarrito}}>
       <BrowserRouter>
         <div className="App">
           <NavBar/>
