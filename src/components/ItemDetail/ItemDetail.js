@@ -2,7 +2,8 @@ import { useContext, useState } from "react"
 import { Link, useNavigate } from "react-router-dom"
 import './ItemDetail.css'
 import ItemCount from "../ItemCount/ItemCount"
-import { CartContext } from "..CartContext/CartContext"
+import { CartContext } from "../CartContext/CartContext"
+import { type } from "@testing-library/user-event/dist/type"
 
 const ItemDetail = ({item}) => {
 
@@ -11,8 +12,11 @@ const ItemDetail = ({item}) => {
     const[cantidad, setCantidad] = useState(1)
     
     const handleAgregar = () => {
-        {item, cantidad}
-        agregarCarrito(item)
+        let itemToAdd={
+            ...item,
+            cantidad
+        }
+        agregarCarrito(itemToAdd)
     }
 
     const navigate = useNavigate()
@@ -22,22 +26,31 @@ const ItemDetail = ({item}) => {
 
 
     return(
-        <div>
-            <h2 className="nameItemDetail">{item.name}</h2>
-            <img className="imgItemDetail"src={item.image}></img>
-            <h5 className="descriptionItemDetail">Ingredientes:</h5>
-            <p className="descriptionItemDetail">{item.description}</p>
-            <small className="priceItemDetail">$ {item.price}</small>  
+            <div>
+                {    
+                    item.description === "" ? 
+            <>
+                    <h2 className='nameItemDetail'>{item.name}</h2>
+                    <img className='imgItemDetail'src={item.image}></img>                
+                    </>
+            : <>
+                    <h2 className='nameItemDetail'>{item.name}</h2>
+                    <img className='imgItemDetail'src={item.image}></img>                
+                    <h5 className="descriptionItemDetail">Ingredientes:</h5>
+                    <p className="descriptionItemDetail">{item.description}</p>
+            </>
+            }
             <br></br>
-            
+            <small className="priceItemDetail">$ {item.price}</small>
+            <br ></br>
+            <br></br>
             {
-                !enElCarrito(id) ? <ItemCount handleAgregar = {handleAgregar} setCantidad={setCantidad} cantidad={cantidad} max={item.stock}></ItemCount>
+                !enElCarrito(item.id) ? <ItemCount handleAgregar = {handleAgregar} setCantidad={setCantidad} cantidad={cantidad} max={item.stock}></ItemCount>
                     : <Link to="/cart" className="btn btn-success">Terminar mi compra</Link>
             }       
             <hr/>
             <Link className="btn btn-primary" onClick={handleVolver}>Volver</Link>
-        </div>
-    )
-}
+        </div>    
+)}
 
 export default ItemDetail

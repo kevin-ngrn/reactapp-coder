@@ -5,22 +5,17 @@ import { ItemDetailContainer } from './components/ItemDetailContainer/ItemDetail
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import './App.css'
 import { Footer } from './components/Footer.js/Footer';
-import { CartContext } from './components/CartContext/CartContext';
-import { useState } from 'react';
+import {CartProvider} from './components/CartContext/CartContext'
+import { Cart } from './components/Cart/Cart';
+
+
 
 
 function App() {
 
-    const [cart, setCart] = useState([])
-    const agregarCarrito = (item) => {
-      setCart([...cart, item])
-    }
-    const enElCarrito = (id) => {
-      return cart.some(item => item.id === id)
-    }
-  
+
   return (
-    <CartContext.Provider value={{cart, agregarCarrito, enElCarrito}}>
+    <CartProvider >
       <BrowserRouter>
         <div className="App">
           <NavBar/>
@@ -29,11 +24,12 @@ function App() {
             <Route path="/productos/:categoryId" element={<ItemListContainer/>}/>
             <Route path="/detail/:itemId" element={<ItemDetailContainer itemId={1}/>}/>
             <Route path="*" element={<Navigate to={'/'}/>}/>
+            <Route path='/cart' element={<Cart/>}/>
           </Routes>
           <Footer/>
         </div>
       </BrowserRouter>
-    </CartContext.Provider>
+    </CartProvider>
   );
 }
 
