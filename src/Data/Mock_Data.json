@@ -215,7 +215,7 @@
 {"id": 31,
 "name": "Veganceta",
 "description": "",
-"image": "/img/productoExtra.png",
+"image": "/img/productoVeganceta.png",
 "price": 55,
 "category": "Extras",
 "stock": 20
@@ -223,7 +223,7 @@
 {"id": 32,
 "name": "Queso Vegano",
 "description": "",
-"image": "/img/productoExtra.png",
+"image": "/img/productoQuesoVegano.png",
 "price": 55,
 "category": "Extras",
 "stock": 20
@@ -231,7 +231,7 @@
 {"id": 33,
 "name": "Pepinillos",
 "description": "",
-"image": "/img/productoExtra.png",
+"image": "/img/productoPepinillos.png",
 "price": 55,
 "category": "Extras",
 "stock": 20
@@ -239,7 +239,7 @@
 {"id": 34,
 "name": "Guacamole",
 "description": "",
-"image": "/img/productoExtra.png",
+"image": "/img/productoGuacamole.png",
 "price": 55,
 "category": "Extras",
 "stock": 20
@@ -247,7 +247,7 @@
 {"id": 35,
 "name": "Cebolla Caramelizada",
 "description": "",
-"image": "/img/productoExtra.png",
+"image": "/img/productoCaramelizada.png",
 "price": 55,
 "category": "Extras",
 "stock": 20
@@ -255,7 +255,7 @@
 {"id": 36,
 "name": "Papas Fritas",
 "description": "",
-"image": "/img/productoExtra1.png",
+"image": "/img/productoFritas.jpg",
 "price": 220,
 "category": "Porciones",
 "stock": 20
@@ -263,7 +263,7 @@
 {"id": 37,
 "name": "Papas Rusticas",
 "description": "",
-"image": "/img/productoExtra1.png",
+"image": "/img/productoRusticas.png",
 "price": 250,
 "category": "Porciones",
 "stock": 20
@@ -271,7 +271,7 @@
 {"id": 38,
 "name": "Aros de Cebolla",
 "description": "",
-"image": "/img/productoExtra1.png",
+"image": "/img/productoAros.png",
 "price": 260,
 "category": "Porciones",
 "stock": 20
@@ -279,7 +279,7 @@
 {"id": 39,
 "name": "Cheeseball",
 "description": "",
-"image": "/img/productoExtra1.png",
+"image": "/img/productoCheeseball.png",
 "price": 380,
 "category": "Porciones",
 "stock": 20
@@ -287,7 +287,7 @@
 {"id": 40,
 "name": "Cheddar",
 "description": "",
-"image": "/img/productoCheddar.png",
+"image": "/img/salsero.jpg",
 "price": 80,
 "category": "Salsas",
 "stock": 20
@@ -295,7 +295,7 @@
 {"id": 41,
 "name": "Picante",
 "description": "",
-"image": "/img/productoPicante.png",
+"image": "/img/salsero.jpg",
 "price": 70,
 "category": "Salsas",
 "stock": 20
@@ -303,7 +303,7 @@
 {"id": 42,
 "name": "Remolacha",
 "description": "",
-"image": "/img/productoRemolacha.png",
+"image": "/img/salsero.jpg",
 "price": 70,
 "category": "Salsas",
 "stock": 20
@@ -311,7 +311,7 @@
 {"id": 43,
 "name": "Alioli",
 "description": "",
-"image": "/img/productoAlioli.png",
+"image": "/img/salsero.jpg",
 "price": 70,
 "category": "Salsas",
 "stock": 20
