@@ -62,9 +62,9 @@
 
 {"id": 8,
 "name": "Melted",
-"description": " 400g de carne, doble extra bacon, doble extra queso cheddar, mayonesa y salsa BBQ",
+"description": "400g de carne, doble extra bacon, doble extra queso cheddar, mayonesa y salsa BBQ",
 "image": "/img/producto.png",
-"price": 435,
+"price": 535,
 "category": "Carne",
 "stock": 20
 },
