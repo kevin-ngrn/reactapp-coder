@@ -7,12 +7,12 @@ import './App.css'
 import { Footer } from './components/Footer.js/Footer';
 import {CartProvider} from './components/CartContext/CartContext'
 import { Cart } from './components/Cart/Cart';
+import OpinionScreen from './components/OpinionScreen/OpinionScreen';
 
 
 
 
 function App() {
-
 
   return (
     <CartProvider >
@@ -25,6 +25,7 @@ function App() {
             <Route path="/detail/:itemId" element={<ItemDetailContainer itemId={1}/>}/>
             <Route path="*" element={<Navigate to={'/'}/>}/>
             <Route path='/cart' element={<Cart/>}/>
+            <Route path="/opinion" element={<OpinionScreen/>}/>
           </Routes>
           <Footer/>
         </div>

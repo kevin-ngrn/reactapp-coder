@@ -32,7 +32,7 @@ const ItemDetail = ({item}) => {
             <>
                     <h2 className='nameItemDetail'>{item.name}</h2>
                     <img className='imgItemDetail'src={item.image}></img>                
-                    </>
+            </>
             : <>
                     <h2 className='nameItemDetail'>{item.name}</h2>
                     <img className='imgItemDetail'src={item.image}></img>                

@@ -10,5 +10,10 @@
 
 .nameItemList{
     font-family: fantasy;
-    font-size: large;
+    font-size: x-large;
+}
+
+.todosProductos{
+    font-size: xx-large;
+    font-weight: bolder;
 }

@@ -1,3 +1,4 @@
 .App{
-    background-color: goldenrod;
+    background-image: url(../public/img/bgImage.png);
+    background-size: cover;
 }

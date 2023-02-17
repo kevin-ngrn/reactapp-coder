@@ -255,7 +255,7 @@
 {"id": 36,
 "name": "Papas Fritas",
 "description": "",
-"image": "/img/productoFritas.jpg",
+"image": "/img/productoFritas.png",
 "price": 220,
 "category": "Porciones",
 "stock": 20
@@ -295,7 +295,7 @@
 {"id": 41,
 "name": "Picante",
 "description": "",
-"image": "/img/salsero.jpg",
+"image": "/img/salsero.png",
 "price": 70,
 "category": "Salsas",
 "stock": 20
@@ -303,7 +303,7 @@
 {"id": 42,
 "name": "Remolacha",
 "description": "",
-"image": "/img/salsero.jpg",
+"image": "/img/salsero.png",
 "price": 70,
 "category": "Salsas",
 "stock": 20
@@ -311,7 +311,7 @@
 {"id": 43,
 "name": "Alioli",
 "description": "",
-"image": "/img/salsero.jpg",
+"image": "/img/salsero.png",
 "price": 70,
 "category": "Salsas",
 "stock": 20

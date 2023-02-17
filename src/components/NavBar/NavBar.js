@@ -21,7 +21,7 @@ export const NavBar = () => {
                     <Link to="/productos/Salsas"className='linksHeader'>Salsas</Link>
                     <Link to="/productos/Bebidas"className='linksHeader'>Bebidas</Link>
                     <CartWidget></CartWidget>
-                    <Link to=""className='linkOpinion'>¡Dejanos tu opinion!</Link>
+                    <Link to="/opinion"className='linkOpinion'>¡Dejanos tu opinion!</Link>
                 </nav>
                 
             </div>

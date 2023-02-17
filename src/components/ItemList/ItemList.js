@@ -10,7 +10,7 @@ export const ItemList = ({productos}) => {
     return (
         <div className='container my-5'>
             <hr/>
-                <h3>Todos los productos: {categoryId}</h3>
+                <h2 className="todosProductos">Todos los productos: {categoryId}</h2>
             <section className="row my-4">
             {productos.map((prod => (
                 <div key={prod.id} className="col-4 divProdItemList" >
@@ -18,8 +18,7 @@ export const ItemList = ({productos}) => {
                     <img src={prod.image}></img>
                     <br></br>
                     <Link to={`/detail/${prod.id}`} className="btn btn-outline-primary btnItemList">Detalle</Link>
-                </div>
-                )
+                </div>)
             ))}
             </section>
         </div>

@@ -2,12 +2,13 @@
     display: flex;
     justify-content: center;
     color: black;
-    font-weight: bold;
+    font-weight: 900;
     margin: 10%;
     font-size: -webkit-xxx-large;    
 }
 
 .subtituloInicio{
+    font-size: large;
     display: flex;
     justify-content: center;
     color: black;
