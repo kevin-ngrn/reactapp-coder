@@ -5,10 +5,17 @@ export const Footer = () => {
         <div className='divFooter'>
             <img src='/img/logoFooter.png'></img>
             <div>
-            <p className='rrssFooter'>Mail: example@gmail.com</p>
-            <p className='rrssFooter'>Instagram: exampleUser</p>
-            </div>
-            <img src='/img/logoFooter.png'></img>
+			<a href="#">
+			<img src="./img/logoTwitter.png" alt="logoInstagram"></img>
+			</a>
+			<a href="#">
+			<img src="./img/logoInstagram.png" alt="logoFacebook"></img>
+			</a>
+			<a href="#">
+			<img src="./img/logoFacebook.png" alt="logoTwitter"></img>
+			</a>
+            </div> 
+            <img src="/img/logoFooter.png"></img>
         </div>
     )
 }

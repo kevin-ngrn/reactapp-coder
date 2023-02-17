@@ -21,6 +21,7 @@ export const ItemList = ({productos}) => {
                 </div>)
             ))}
             </section>
+            <hr/>
         </div>
     )
 } 

@@ -20,6 +20,8 @@
     font-size: medium;
     font-weight: bold;
     height: 220px;
+    background-image: url(../../../public/img/imgForm.png);
+    background-size: cover;
 }
 
 .btnEnviar{
