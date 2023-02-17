@@ -1,4 +1,4 @@
 .App{
     background-image: url(../public/img/bgImage.png);
-    background-size: cover;
+    background-size: contain;
 }

@@ -18,9 +18,15 @@
 .inputMensaje{
     margin: 30px 0px 0px 0px;
     font-size: medium;
+    font-weight: bold;
     height: 220px;
 }
 
-
+.btnEnviar{
+    margin: 15px;
+    background-color: black;
+    width: 90%;
+    font-weight: bold;
+}
 
 
