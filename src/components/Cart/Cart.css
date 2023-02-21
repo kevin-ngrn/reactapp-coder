@@ -1,7 +1,18 @@
 .divCart{
-    font-size: large;
+    font-size: x-large;
+    font-weight: 400;
 }
 
 .botonPedir{
     margin-left: 10px;
 }
+
+.totalCart{
+    font-weight: bolder;
+}
+
+.subtituloCheckout{
+    font-weight: bold;
+}
+
+

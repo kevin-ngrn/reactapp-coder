@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom"
 import './ItemDetail.css'
 import ItemCount from "../ItemCount/ItemCount"
 import { CartContext } from "../CartContext/CartContext"
-import { type } from "@testing-library/user-event/dist/type"
+
 
 const ItemDetail = ({item}) => {
 
@@ -36,13 +36,13 @@ const ItemDetail = ({item}) => {
             : <>
                     <h2 className='nameItemDetail'>{item.name}</h2>
                     <img className='imgItemDetail'src={item.image}></img>                
-                    <h5 className="descriptionItemDetail">Ingredientes:</h5>
-                    <p className="descriptionItemDetail">{item.description}</p>
+                    <h4 className="descriptionItemDetail">Ingredientes:</h4>
+                    <h5 className="descriptionItemDetail">{item.description}</h5>
             </>
             }
             <br></br>
             <small className="priceItemDetail">$ {item.price}</small>
-            <br ></br>
+            <br></br>
             <br></br>
             {
                 !enElCarrito(item.id) ? <ItemCount handleAgregar = {handleAgregar} setCantidad={setCantidad} cantidad={cantidad} max={item.stock}></ItemCount>

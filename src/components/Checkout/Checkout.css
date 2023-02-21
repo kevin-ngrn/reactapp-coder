@@ -1,0 +1,47 @@
+.comentarioCheckout{
+    height: 100px;
+    width: 400px;
+}
+
+.tituloCheckout{
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+    font-weight: bolder;
+}
+
+.inputsCheckout{
+    width: 400px;
+    padding: 15px;
+}
+
+.divCheckout{
+    text-align: -webkit-center;
+}
+
+.btn-checkout{
+    margin: 15px;
+}
+
+.divTotalCompra{
+    border-style: solid;
+    width: fit-content;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.btnFinalVolver{
+    width: fit-content;
+}
+
+.divMsjFinal{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 10% 0 5% 0;
+/*     border-style: solid;
+    border-width: thick; */
+}
+

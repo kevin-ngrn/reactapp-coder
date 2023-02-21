@@ -8,6 +8,7 @@ import { Footer } from './components/Footer.js/Footer';
 import {CartProvider} from './components/CartContext/CartContext'
 import { Cart } from './components/Cart/Cart';
 import OpinionScreen from './components/OpinionScreen/OpinionScreen';
+import Checkout from './components/Checkout/Checkout';
 
 
 
@@ -26,6 +27,7 @@ function App() {
             <Route path="*" element={<Navigate to={'/'}/>}/>
             <Route path='/cart' element={<Cart/>}/>
             <Route path="/opinion" element={<OpinionScreen/>}/>
+            <Route path='/checkout' element={<Checkout/>}/>
           </Routes>
           <Footer/>
         </div>

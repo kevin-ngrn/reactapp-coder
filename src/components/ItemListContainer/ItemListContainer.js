@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './ItemListContainer.css'
 import { ItemList } from '../ItemList/ItemList.js'
-import { useParams } from 'react-router-dom'
+import { Navigate, useParams } from 'react-router-dom'
 import Inicio from '../Inicio/Inicio'
 import { collection, getDocs, query, where } from 'firebase/firestore'
 import { db } from "../../firebase/config"
@@ -30,6 +30,9 @@ const { categoryId } = useParams()
             }));
         })
     }, [categoryId])
+
+
+
 
     return (
         <div>

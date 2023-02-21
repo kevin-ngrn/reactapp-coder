@@ -1,7 +1,7 @@
 import { useContext } from "react"
 import { CartContext } from "../CartContext/CartContext"
 import { BsFillTrashFill } from "react-icons/bs"
-import { useNavigate } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import './Cart.css'
 
 
@@ -24,8 +24,9 @@ export const Cart = () => {
     }
 
         return(
-            <div className="container my-5">
-                <h2>Tu compra</h2>
+            <div className="container my-5 divCartGeneral">
+                <div>
+                <h1>Tu compra</h1>
                 <hr></hr>
                 {
                         cart.map(item => (
@@ -34,17 +35,18 @@ export const Cart = () => {
                                 <p>Categoria: <b>{item.category}</b></p>
                                 <p>Cantidad: <b>{item.cantidad}</b></p>
                                 <p>Precio: <b>${item.price * item.cantidad}</b></p>
-                                <button className="btn btn-outline-danger" onClick={()=>removeItem(item.id)}> <BsFillTrashFill/> </button>
+                                <button className="btn btn-danger" onClick={()=>removeItem(item.id)}> <BsFillTrashFill/> </button>
                                 <hr></hr>
                             </div>
                         ))
                     }
-                    <h4>Total: ${totalPrice()}</h4>
+                    <h3 className="totalCart">Total: ${totalPrice()}</h3>
                 <hr></hr>
                 <button className="btn btn-danger" onClick={emptyCart}>Vaciar</button>
-                <button className="btn btn-success botonPedir">Pedir!</button>
+                <Link to="/checkout" className="btn btn-success botonPedir">Terminar mi pedido</Link>
                 <hr></hr>
                 <button className="btn btn-primary" onClick={handleVolver}>Volver</button>
+                </div>
             </div>
         )
 }
