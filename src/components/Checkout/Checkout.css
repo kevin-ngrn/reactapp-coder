@@ -45,3 +45,9 @@
     border-width: thick; */
 }
 
+.hrCheckout{
+    border: none;
+    height: 4px;
+    background-color: black;
+}
+
