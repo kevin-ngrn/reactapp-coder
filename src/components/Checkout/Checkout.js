@@ -81,7 +81,7 @@ if(cart.length===0){
                 <input onChange={handleInputChange} type='text' minLength={3} maxLength={18} pattern="[A-Za-z ]+" name="nombre" value={values.nombre} placeholder={invalido ? "Campo Obligatorio" : "Nombre"} className="form-control  inputsCheckout"></input>
                 <p><b>Direccion:</b></p>
                 <input onChange={handleInputChange} type='text' name="direccion" minLength={3} maxLength={30} pattern="[A-Za-z0-9 ]+"  value={values.direccion} placeholder={invalido ? "Campo Obligatorio" : "Direccion"} className="form-control  inputsCheckout"></input>
-                <textarea onChange={handleInputChange} type='text' className="form-control comentarioCheckout" value={values.comentarios} placeholder="Comentarios" ></textarea>
+                <textarea onChange={handleInputChange} type='text' name="comentarios" className="form-control comentarioCheckout" value={values.comentarios} placeholder="Comentarios" ></textarea>
                 <p><b>Telefono:</b></p>
                 <input onChange={handleInputChange} type='number' name="telefono" value={values.telefono} placeholder={invalido ? "Campo Obligatorio" : "Telefono"} className="form-control  inputsCheckout"></input>
                 <div className="divTotalCompra">
@@ -92,7 +92,7 @@ if(cart.length===0){
                                 <p><b>{item.cantidad} {item.name}</b></p>
                                 <hr className="hrCheckout"></hr>
                             </div>  
-                        ))} <h5><b>Total de la compra: {totalPrice()}</b></h5>
+                        ))} <h5><b>Total de la compra: ${totalPrice()}</b></h5>
                 </div>
                 <Link onClick={handleVolver} className="btn btn-primary btn-checkout">Volver</Link>
                 <button onClick={setInvalido} className="btn btn-success btn-checkout">¡Pedir!</button>
